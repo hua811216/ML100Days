@@ -1,0 +1,154 @@
+<mxfile host="app.diagrams.net" modified="2021-05-31T13:43:10.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="G6fMJtbj9uhjKSBFGBJ5" version="14.7.3" type="github">
+  <diagram id="LaAjD1WEJQZnvLfgFXQa" name="Page-1">
+    <mxGraphModel dx="920" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-1" value="開始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-2" value="隨機從1-100&lt;br&gt;產生莊家數字" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-3" value="顯示莊家數字" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-4" value="從最大值和最小值之間取中間值來當挑戰者數字" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-5" value="確認挑戰者數字&lt;br&gt;是否等於莊家數字" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="480" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-7" value="莊家數字等於&lt;br&gt;挑戰者數字" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-8" value="顯示&lt;br&gt;挑戰者猜對了" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-9" value="遊戲結束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-10" value="確認挑戰者數字&lt;br&gt;是否大於莊家數字" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="510" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-11" value="顯示挑戰者數字&lt;br&gt;太大了!" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="449" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-12" value="顯示挑戰者數字&lt;br&gt;太小了!" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="448" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-1" target="AV_vVuV3VTmZUs4nvB_1-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="200" as="sourcePoint" />
+            <mxPoint x="330" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-2" target="AV_vVuV3VTmZUs4nvB_1-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="200" as="sourcePoint" />
+            <mxPoint x="330" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-3" target="AV_vVuV3VTmZUs4nvB_1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="400" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-4" target="AV_vVuV3VTmZUs4nvB_1-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="400" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-5" target="AV_vVuV3VTmZUs4nvB_1-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="500" as="sourcePoint" />
+            <mxPoint x="330" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-10" target="AV_vVuV3VTmZUs4nvB_1-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="500" as="sourcePoint" />
+            <mxPoint x="330" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-19" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-10" target="AV_vVuV3VTmZUs4nvB_1-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="500" as="sourcePoint" />
+            <mxPoint x="330" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-20" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-5" target="AV_vVuV3VTmZUs4nvB_1-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="620" as="sourcePoint" />
+            <mxPoint x="150" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-7" target="AV_vVuV3VTmZUs4nvB_1-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="600" as="sourcePoint" />
+            <mxPoint x="330" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-22" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-8" target="AV_vVuV3VTmZUs4nvB_1-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="700" as="sourcePoint" />
+            <mxPoint x="330" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-23" value="挑戰者數字&lt;br&gt;設成最大值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-24" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-11" target="AV_vVuV3VTmZUs4nvB_1-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="500" as="sourcePoint" />
+            <mxPoint x="330" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-25" value="挑戰者數字&lt;br&gt;設成最小值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-26" value="Yes" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="130" y="610" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-28" value="Yes" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="340" y="491.5" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-29" value="No" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="420" y="520.5" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-30" value="No" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="220" y="546.5" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-31" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-12" target="AV_vVuV3VTmZUs4nvB_1-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-32" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="AV_vVuV3VTmZUs4nvB_1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-33" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="510" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV_vVuV3VTmZUs4nvB_1-34" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AV_vVuV3VTmZUs4nvB_1-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="440" as="sourcePoint" />
+            <mxPoint x="350" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
